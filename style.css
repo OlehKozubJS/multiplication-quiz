@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 300px;
+    width: 310px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
 
 .outputs {
     margin-block: 75px;
-    width: 300px;
+    width: inherit;
     height: 120px;
     display: flex;
     flex-wrap: wrap;
