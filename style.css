@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 310px;
+    width: 305px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,10 +14,10 @@ body {
 
 .outputs {
     margin-block: 75px;
-    width: inherit;
     height: 120px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 30px;
     row-gap: 15px;
 }
