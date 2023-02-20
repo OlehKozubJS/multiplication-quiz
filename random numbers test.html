@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Multiplication Quiz</title>
+</head>
+<body onload="getTask()">
+    <!--button onclick="getANumber()">Let's Start a quiz!</!--button-->
+    <div class="container">
+        <div class="outputs">
+            <div class="output task-output">0</div>
+            <div class="output time-output">10</div>
+            <div class="output answer-output">0</div>
+            <div class="output points-output">0</div>
+        </div>
+
+        <div class="number-buttons">
+            <button class="number-button" onclick="setNumber(1)">1</button>
+            <button class="number-button" onclick="setNumber(2)">2</button>
+            <button class="number-button" onclick="setNumber(3)">3</button>
+            <button class="number-button" onclick="setNumber(4)">4</button>
+            <button class="number-button" onclick="setNumber(5)">5</button>
+            <button class="number-button" onclick="setNumber(6)">6</button>
+            <button class="number-button" onclick="setNumber(7)">7</button>
+            <button class="number-button" onclick="setNumber(8)">8</button>
+            <button class="number-button" onclick="setNumber(9)">9</button>
+            <button class="clear-button" onclick="cancel()">C</button>
+            <button class="number-button" onclick="setNumber(0)">0</button>
+            <button class="enter-button" onclick="enter()">E</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Dancing Script";
+    font-size: 40px;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outputs {
+    margin-block: 75px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.output {
+    width: 130px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(150, 150, 250);
+    background: rgb(220, 235, 250);
+    color: rgb(150, 150, 250);
+}
+
+.number-buttons {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: 3px solid rgb(250, 150, 150);
+    background: rgb(250, 235, 220);
+    color: rgb(250, 150, 150);
+    width: 50px;
+    height: 50px;
+    font-family: "Dancing Script";
+    font-size: 40px;
+}
+
+button:hover {
+    background: rgb(250, 235, 235);
+}
